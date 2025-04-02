@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* type selectors */
+
+body {
+    background: #c8e6e1 url("/imagens/fundo.jpg");
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 920px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h2 {
+    color: gray;
+}
+
+
+/* class selectors */
+
+.topo {
+    width: 920px;
+    margin: 0 auto;
+    height: 420px;
+    border: 10px inset lightblue;
+}
+
+.menu {
+    background-color: #000066;
+    padding: 25px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 17px;
+}
+
+.conteudo {
+    background-color: white;
+    padding: 20px 50px;
+}
+
+.conteudo p {
+    padding: 12px 0px;
+}
+
+.rodape {
+    background-color: yellow;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
